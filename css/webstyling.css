@@ -234,16 +234,6 @@ img .vid{
     top: 0;
     z-index: 10;
 }
-@media (max-width:781px){
-    .contents{
-        flex-direction: column;
-        }
-}
-@media only screen and (min-width:781px){
-    .contents{
-        flex-direction: row;
-    }
-}
 @media screen and (max-width: 1095px){
 .landing-wrapper, .landing-wrapper {
     padding-right: 36px;
@@ -270,6 +260,9 @@ img .vid{
             display: flex;
             flex-direction: column;
         }
+        .landingwindow{
+            flex-direction: column;
+        }
         .contpart1{
             max-width: 100%;
         }
@@ -277,7 +270,9 @@ img .vid{
             flex: none;
             order: 1;
             width: 100%;}
-    }
-
+            .contents{
+                flex-direction: column;
+                }
+            }
     
    
