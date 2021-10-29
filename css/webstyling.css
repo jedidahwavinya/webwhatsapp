@@ -271,10 +271,6 @@ img .vid{
             flex: none;
             order: 1;
             width: 100%;}
-        .codebox{
-            width: 50%;
-            height: 50%;
-            overflow: hidden;}
             .contents{
                 flex-direction: column;
                 }
