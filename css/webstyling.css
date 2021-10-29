@@ -231,10 +231,15 @@ img .vid{
     visibility:visible;
     right: 0;
     left: 0;
-    background-size: 560px 314px;
+    /* background-size: 560px 314px; */
     position: absolute;
     top: 0;
     z-index: 10;
+   
+}
+.WhatsAppVideo{
+    display: flex;
+    position: relative;
 }
 @media screen and (max-width: 1095px){
 .landing-wrapper, .landing-wrapper {
@@ -248,7 +253,6 @@ img .vid{
     html[dir] .landingmain {
         padding: 58px 52px 110px;
         }
-
 }
 @media (max-width: 780px){
     .landingwindow {
@@ -274,6 +278,15 @@ img .vid{
             width: 100%;}
             .contents{
                 flex-direction: column;
+                }
+                .keep{
+                    display: flex;
+                    align-items: baseline;
+                    padding-top: 50px;
+                }
+                img .vid{
+                    width: 40%;
+                    height: 40%;
                 }
             }
     
