@@ -199,7 +199,6 @@ a {
     height:314px ;
     position: relative;
     flex: none;
-    
 }
 .click{
     position: absolute;
@@ -241,22 +240,39 @@ img .vid{
     display: flex;
     position: relative;
 }
+/* ~viewpoint of a moblie phone */
+@media screen and(max-width:400px){
+    .landingwindow{
+        width:100%;
+    }
+    .contents{
+        display: flex;
+        flex-direction: column;
+    }
+    .cont{
+        position: relative;
+    }
+}
 @media screen and (max-width: 1095px){
-.landing-wrapper, .landing-wrapper {
-    padding-right: 36px;
-    padding-left: 36px;}
+    .landing-wrapper, .landing-wrapper {
+        padding-right: 36px;
+        padding-left: 36px;
+    }
     .landingheader {
         width: 100%;
-        }
-        .landing-wrapper {
-    box-sizing: border-box;}
+    }
+    .landing-wrapper {
+    box-sizing: border-box;
+    }
     html[dir] .landingmain {
         padding: 58px 52px 110px;
         }
 }
 @media (max-width: 780px){
     .landingwindow {
-        width: 100%;}
+        width: 100%;
+        flex-direction: column;
+    }
          html[dir] .landingmain {
             padding-bottom: 82px;}
         .landingheader{
@@ -266,19 +282,18 @@ img .vid{
             display: flex;
             flex-direction: column;
         }
-        .landingwindow{
-            flex-direction: column;
-        }
         .contpart1{
             max-width: 100%;
-        }
-        .contpart1{
             flex: none;
             order: 1;
-            width: 100%;}
-            .contents{
-                flex-direction: column;
-                }
+            width: 100%;
+        }
+        .contents{
+            flex-direction: column;
+        }
+        .cont{
+            
+        }
                 .keep{
                     display: flex;
                     align-items: baseline;
