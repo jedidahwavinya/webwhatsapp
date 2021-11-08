@@ -301,7 +301,17 @@ img .vid{
         .keep{
             display: flex;
             align-items: baseline;
-            padding-top: 50px;
+            padding-top: 150px;
+            left: 110px;
+        }
+        .contpart2{
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .help{
+            margin-top: 10px;
+            top: 260px;
+            left: 110px;
         }
         .WhatsAppVideo img{
             width: 380px;
@@ -309,12 +319,24 @@ img .vid{
             padding-left: 100px;
         }
 }
-@media screen and(max-width:610px){
+@media (max-width:667px){
+    a.help{
+        margin-top: 10px;
+        top: 293px;
+        left: 110px;
+    }
+}
+@media (max-width:541px){
     .WhatsAppVideo img{
         width: 300px;
         height: 300px;
         padding-left: 50px;
         overflow-x: hidden;
+    }
+    a.help{
+        margin-top: 10px;
+        top: 350px;
+        left: 110px;
     }
 }
 @media (max-width:497px){
