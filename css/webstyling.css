@@ -241,7 +241,7 @@ img .vid{
     position: relative;
 }
 /* ~viewpoint of a moblie phone */
-@media screen and(max-width:400px){
+@media (max-width:400px){
     .landingwindow{
         width:100%;
     }
@@ -252,7 +252,13 @@ img .vid{
     .cont{
         position: relative;
     }
+    .WhatsAppVideo img{
+        width: 20px;
+        height: 250px;
+        overflow-x: hidden;
+    }
 }
+
 @media screen and (max-width: 1095px){
     .landing-wrapper, .landing-wrapper {
         padding-right: 36px;
@@ -291,18 +297,32 @@ img .vid{
         .contents{
             flex-direction: column;
         }
-        .cont{
-            
+        
+        .keep{
+            display: flex;
+            align-items: baseline;
+            padding-top: 50px;
         }
-                .keep{
-                    display: flex;
-                    align-items: baseline;
-                    padding-top: 50px;
-                }
-                img .vid{
-                    width: 40%;
-                    height: 40%;
-                }
-            }
-    
+        .WhatsAppVideo img{
+            width: 380px;
+            height: 300px;
+            padding-left: 100px;
+        }
+}
+@media screen and(max-width:610px){
+    .WhatsAppVideo img{
+        width: 300px;
+        height: 300px;
+        padding-left: 50px;
+        overflow-x: hidden;
+    }
+}
+@media (max-width:497px){
+    .WhatsAppVideo img {
+       width: 300px;
+       height: 300px;
+       padding-left: 130px;
+       overflow-x: hidden;
+    }
+}    
    
